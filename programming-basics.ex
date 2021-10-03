@@ -10,8 +10,8 @@ defmodule Basics do
 
   ## Example
 
-    What is your github name? Takueg
-    Welcome to elixir Takueg
+    What is your github name? AwesomeCoder
+    Welcome to elixir AwesomeCoder
   """
   def welcome do
     username = gets("What is your github name? ")
