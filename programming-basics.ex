@@ -17,4 +17,9 @@ defmodule Basics do
     username = gets("What is your github name? ")
     puts("Welcome to elixir #{username}")
   end
+
+  def trim_string(a_string) do
+    String.trim(a_string)
+  end
+
 end
