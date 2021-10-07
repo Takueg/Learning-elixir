@@ -17,5 +17,8 @@ defmodule Basics do
     String.contains?(string, word)
   end
 
+  def replace_letter(str, old_letter, new_letter) do
+    String.replace(str, old_letter, new_letter)
+  end
 
 end
