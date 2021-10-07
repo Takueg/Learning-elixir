@@ -4,15 +4,6 @@ defmodule Basics do
   """
   import IO, only: [gets: 1, puts: 1]
 
-  @doc """
-  Asks user for github username and prints out a personalised
-  welcome note to the elixir language.
-
-  ## Example
-
-    What is your github name? AwesomeCoder
-    Welcome to elixir AwesomeCoder
-  """
   def welcome do
     username = gets("What is your github name? ")
     puts("Welcome to elixir #{username}")
@@ -21,5 +12,10 @@ defmodule Basics do
   def trim_string(a_string) do
     String.trim(a_string)
   end
+
+  def belongs_to?(string, word) do
+    String.contains?(string, word)
+  end
+
 
 end
